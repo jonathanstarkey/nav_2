@@ -1,0 +1,307 @@
+nav {
+    position: relative;
+    Width: 1280px;
+    
+    margin: 0 auto;
+}
+
+/*-------TOP ROW GENERAL-------*/
+div#top-row {
+    height: 50px;
+    
+    margin: 0 auto;
+    
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(74%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+}
+
+div#cart-tab { 
+    position: absolute;
+    
+    display: inline-block;
+    
+    margin-left: 1129px;
+    
+    border-bottom: 40px solid #0083c2;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	height: 0;
+	width: 118px;
+    
+    bottom: 0;
+}
+
+div#cart-png {
+    padding-left: 15px;
+    margin-top: 6px;
+    display: inline-block;
+    
+    background: url(img/cart.png) no-repeat center;
+    width: 40px;
+    height: 28px;
+}
+
+#cart-tab a{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    display: inline-block;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    
+    color: white;
+    
+    text-decoration: none;
+}
+
+#cart-tab a:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    
+    color: white;
+}
+
+
+/*-------MAIN NAV GENERAL-------*/
+
+
+ul#main-nav {
+    position: absolute;
+    margin: 0 auto;
+    
+    height: 59px; 
+
+}
+
+#main-nav li{
+    display: inline;
+}
+
+#main-nav a {
+    display: block;
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+#main-nav a#main-1 {
+    background: url(img/spacer.png);
+    width: 335px;
+    height: 59px;
+}
+
+#main-nav a#main-2 {
+    z-index: 60;
+    background: url(img/1.png);
+    width: 156px;
+    height: 69px;
+    
+    left: 300px;
+}
+
+#main-nav a#main-3 {
+    z-index: 55;
+    background: url(img/2.png);
+    width: 172px;
+    height: 75px;
+    
+    left: 448px;
+    
+    top: -7px;
+}
+
+#main-nav a#main-4 {
+    z-index: 50;
+    background: url(img/3.png);
+    width: 170px;
+    height: 72px;
+    
+    left: 606px;
+    
+    top: -7px;
+}
+
+#main-nav a#main-5 {
+    z-index: 45;
+    background: url(img/4.png);
+    width: 185px;
+    height: 66px;
+    
+    left: 761px;
+    
+    top: -2px;
+}
+
+#main-nav a#main-6 {
+    z-index: 40;
+    background: url(img/5.png);
+    width: 188px;
+    height: 72px;
+    
+    left: 925px;
+    
+    top: -2px;
+}
+
+#main-nav a#main-7 {
+    z-index: 35;
+    background: url(img/6.png);
+    width: 188px;
+    height: 72px;
+    
+    left: 1089px;
+    
+    top: -2px;
+}
+
+#main-nav a#main-2:hover, 
+#main-nav a#main-5:hover,
+#main-nav a#main-6:hover,
+#main-nav a#main-7:hover {
+    top: -10px;
+}
+
+#main-nav a#main-3:hover, 
+#main-nav a#main-4:hover {
+    top: -11px;
+}
+
+/*-------END MAIN NAV GENERAL-------*/
+
+
+/*-------SEARCH ROW GENERAL-------*/
+
+div#search-row {
+    position: absolute;
+    
+    z-index: 60;
+    
+    width: 1280px;
+    height: 68px;
+    
+    background-color: #0083c2;
+    
+    top: 109px;
+}
+
+a#gift-bot {
+    position: absolute;
+    
+    margin-left: 826px;
+    padding-left: 23px;
+    
+    border-bottom: 47px solid #ff8300;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	height: 0;
+	width: 137px;
+    
+    bottom: 0;
+    
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    line-height: 48px;
+}
+
+a#gift-bot:hover {
+    color: #e6e7e8;
+}
+
+
+a#gift-bot-copy {
+    
+}
+
+div#
+
+
+div#invented-here-tab {
+    position: absolute;
+    
+    margin-left: 1031px;
+    
+    border-bottom: 47px solid #ff8300;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	height: 0;
+	width: 191px;
+    
+    bottom: 0;
+}
+
+/*-------SEARCH ROW GENERAL-------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
