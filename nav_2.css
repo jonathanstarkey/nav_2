@@ -1,3 +1,43 @@
+div#background {
+    position: absolute;
+    width: 100%;
+}
+
+div#top-color {    
+    height: 55px;
+        
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(230,231,232,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e7e8', GradientType=0 )
+}
+
+div#main-color-left {
+    position: absolute;
+    z-index: -0; 
+    height: 50px;
+    width: 100%;
+    top: 50px;
+    
+    background-color: #85b441;
+}
+
+div#main-color-right {
+    position: absolute;
+    z-index: -0; 
+    height: 50px;
+    width: 50%;
+    top: 50px;
+    
+    background-color: #ff8300;
+}
+
+
+
 nav {
     position: relative;
     Width: 1280px;
@@ -20,21 +60,99 @@ a#fbt-logo-nav {
 /*-------END FBT LOGO NAV-------*/
 
 
-/*-------TOP ROW GENERAL-------*/
+/*-------TOP ROW -------*/
 div#top-row {
-    height: 50px;
+    height: 55px;
     
     margin: 0 auto;
     
     background: rgba(255,255,255,1);
-    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(74%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
-    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
-    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
-    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(230,231,232,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e7e8', GradientType=0 );
 }
+
+/*-------TOP ROW INFO -------*/
+
+#top-row-info {
+    position: relative;
+    top: 45%;
+    transform: translateY(-60%);
+    
+    left: 556px;
+    
+    color: #6d6e71;
+}
+
+span#toy-experts {
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+}
+
+span#live-chat-icon {
+    display: inline-block;
+    position: absolute;
+    
+    background: url(img/livechat.gif) no-repeat center;
+    width: 18px;
+    height: 16px;
+}
+
+.info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    
+    color: #6d6e71;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.top-row-anchor {
+    margin-left: 28px;
+}
+
+.top-row-email {
+    margin-left: 1px;
+}
+
+ a.top-row-anchor:hover {
+    font-weight: 500;
+}
+
+a.top-row-email:hover {
+    font-weight: 500;
+}
+
+.number {
+    position: absolute;
+    
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #6d6e71;
+    
+    top: -4px;
+}
+
+span#header-divider {
+    border-right:1px solid #0083c2; 
+    height:20px;
+    margin-right: 13px;
+    margin-left: 11px;
+}
+
+/*-------TOP ROW INFO END -------*/
+
+/*-------TOP ROW CART TAB -------*/
 
 div#cart-tab { 
     position: absolute;
@@ -43,7 +161,7 @@ div#cart-tab {
     
     margin-left: 1129px;
     
-    border-bottom: 40px solid #0083c2;
+    border-bottom: 48px solid #0083c2;
 	border-left: 16px solid transparent;
 	border-right: 16px solid transparent;
 	height: 0;
@@ -54,7 +172,7 @@ div#cart-tab {
 
 div#cart-png {
     padding-left: 15px;
-    margin-top: 6px;
+    margin-top: 7px;
     display: inline-block;
     
     background: url(img/cart.png) no-repeat center;
@@ -85,17 +203,17 @@ div#cart-png {
     
     color: white;
 }
-
+/*-------TOP ROW CART TAB END -------*/
+/*-------TOP ROW GENERAL END -------*/
 
 /*-------MAIN NAV GENERAL-------*/
 
 ul#main-nav {
     position: absolute;
     margin: 0 auto;
-    
-    height: 59px; 
-
     top: 50px;
+    
+    height: 59px;
 }
 
 #main-nav li{
@@ -110,94 +228,101 @@ ul#main-nav {
     text-indent: -9999px;
 }
 
-#main-nav a#main-1 {
+#main-nav a#spacer-right {
     z-index: 60;
-    background: url(img/spacer.png);
+    background-color: #ff8300;
     width: 335px;
     height: 59px;
     
     top: 0px;
 }
 
-#main-nav a#main-2 {
+#main-nav a#main-1 {
     z-index: 60;
-    background: url(img/1.png);
-    width: 156px;
-    height: 69px;
+    background: url(img/1.png) no-repeat center;
+    width: 147px;
+    height: 90px;
     
-    left: 300px;
+    left: 315px;
     
-    top: 0px;
+    top: -1px;
+}
+
+#main-nav a#main-2 {
+    z-index: 55;
+    background: url(img/2.png) no-repeat center;
+    width: 165px;
+    height: 95px;
+    
+    left: 452px;
+    
+    top: -6px;
 }
 
 #main-nav a#main-3 {
-    z-index: 55;
-    background: url(img/2.png);
-    width: 172px;
-    height: 75px;
-    
-    left: 448px;
-    
-    top: -7px;
-}
-
-#main-nav a#main-4 {
     z-index: 50;
-    background: url(img/3.png);
-    width: 170px;
-    height: 72px;
+    background: url(img/3.png) no-repeat center;
+    width: 165px;
+    height: 93px;
     
     left: 606px;
     
-    top: -7px;
+    top: -4px;
 }
 
-#main-nav a#main-5 {
+#main-nav a#main-4 {
     z-index: 45;
-    background: url(img/4.png);
-    width: 185px;
-    height: 66px;
+    background: url(img/4.png) no-repeat center;
+    width: 184px;
+    height: 87px;
     
     left: 761px;
     
-    top: 0px;
+    top: 2px;
 }
 
-#main-nav a#main-6 {
+#main-nav a#main-5 {
     z-index: 40;
-    background: url(img/5.png);
+    background: url(img/5.png) no-repeat center;
     width: 188px;
-    height: 72px;
+    height: 93px;
     
     left: 925px;
     
-    top: -2px;
+    top: -4px;
 }
 
-#main-nav a#main-7 {
+#main-nav a#main-6 {
     z-index: 35;
-    background: url(img/6.png);
+    background: url(img/6.png) no-repeat center;
     width: 188px;
-    height: 72px;
+    height: 90px;
     
     left: 1089px;
     
-    top: -2px;
+    top: -1px;
 }
 
-#main-nav a#main-2:hover, 
-#main-nav a#main-6:hover,
-#main-nav a#main-7:hover {
+#main-nav a#main-1:hover,
+#main-nav a#main-4:hover,
+#main-nav a#main-5:hover {
     top: -10px;
 }
 
-#main-nav a#main-3:hover, 
-#main-nav a#main-4:hover {
-    top: -11px;
+#main-nav a#main-2:hover, 
+#main-nav a#main-3:hover,
+#main-nav a#main-6:hover {
+    top: -14px;
 }
 
-#main-nav a#main-5:hover {
-    top: -7px;
+#main-nav a#spacer-left {
+    z-index: 30;
+    background-color: #85b441;
+    width: 10px;
+    height: 59px;
+    left: 1270px;
+        
+    top: 0px;
 }
 
 /*-------END MAIN NAV GENERAL-------*/
@@ -222,7 +347,7 @@ div#search-row {
 
 span#search-fun {
     position: relative;
-    top: 40%;    
+    top: 36%;    
     margin-left: 287px;
     
     font-family: 'Roboto', sans-serif;
