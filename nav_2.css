@@ -5,6 +5,21 @@ nav {
     margin: 0 auto;
 }
 
+/*-------FBT LOGO NAV-------*/
+
+a#fbt-logo-nav {
+    position: absolute;
+    z-index: 70;
+    top: 18px;
+    
+    background: url(img/logo.png);
+    width: 277px;
+    height: 171px;
+}
+
+/*-------END FBT LOGO NAV-------*/
+
+
 /*-------TOP ROW GENERAL-------*/
 div#top-row {
     height: 50px;
@@ -74,7 +89,6 @@ div#cart-png {
 
 /*-------MAIN NAV GENERAL-------*/
 
-
 ul#main-nav {
     position: absolute;
     margin: 0 auto;
@@ -84,7 +98,7 @@ ul#main-nav {
 }
 
 #main-nav li{
-    display: inline;
+    display: inline-block;
 }
 
 #main-nav a {
@@ -140,7 +154,7 @@ ul#main-nav {
     
     left: 761px;
     
-    top: -2px;
+    top: 0px;
 }
 
 #main-nav a#main-6 {
@@ -166,7 +180,6 @@ ul#main-nav {
 }
 
 #main-nav a#main-2:hover, 
-#main-nav a#main-5:hover,
 #main-nav a#main-6:hover,
 #main-nav a#main-7:hover {
     top: -10px;
@@ -177,10 +190,14 @@ ul#main-nav {
     top: -11px;
 }
 
+#main-nav a#main-5:hover {
+    top: -7px;
+}
+
 /*-------END MAIN NAV GENERAL-------*/
 
 
-/*-------SEARCH ROW GENERAL-------*/
+/*-------SEARCH ROW -------*/
 
 div#search-row {
     position: absolute;
@@ -195,10 +212,27 @@ div#search-row {
     top: 109px;
 }
 
+/*------- SEARCH INPUT TAB -------*/
+
+span#search-fun {
+    position: relative;
+    top: 35%;    
+    margin-left: 287px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    
+    color: white;
+}
+
+/*------- END SEARCH INPUT TAB -------*/
+
+/*-------GIFT BOT TAB -------*/
 a#gift-bot {
     position: absolute;
     
-    margin-left: 826px;
+    margin-left: 445px;
     padding-left: 23px;
     
     border-bottom: 47px solid #ff8300;
@@ -221,29 +255,134 @@ a#gift-bot:hover {
     color: #e6e7e8;
 }
 
-
-a#gift-bot-copy {
+a#gift-bot span {
+    position: absolute;
+    background: url(img/robot_1.png) no-repeat center;
+    width: 100px;
+    height: 100px;
     
+    margin-left: -5px;
+    margin-top: -32px;
 }
 
-div#
+a#gift-bot:hover span{
+    position: absolute;
+    background: url(img/robot_2.png) no-repeat center;
+    width: 100px;
+    height: 100px;
+    
+    margin-left: -5px;
+    margin-top: -32px;
+}
 
+/*-------END GIFT BOT TAB -------*/
 
-div#invented-here-tab {
+/*-------INVENTED HERE TAB -------*/
+a#invented-here {
     position: absolute;
     
-    margin-left: 1031px;
+    margin-left: 643px;
+    padding-left: 20px;
     
     border-bottom: 47px solid #ff8300;
 	border-left: 16px solid transparent;
 	border-right: 16px solid transparent;
 	height: 0;
-	width: 191px;
+	width: 177px;
     
     bottom: 0;
+    
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    line-height: 48px;
 }
 
-/*-------SEARCH ROW GENERAL-------*/
+a#invented-here:hover {
+    color: #e6e7e8;
+}
+
+a#invented-here span {
+    position: absolute;
+    background: url(img/pin_1.png) no-repeat center;
+    width: 73px;
+    height: 73px;
+    
+    margin-left: -5px;
+    margin-top: -20px;
+}
+
+a#invented-here:hover span{
+    position: absolute;
+    background: url(img/pin_2.png) no-repeat center;
+    width: 73px;
+    height: 73px;
+    
+    margin-left: -5px;
+    margin-top: -20px;
+}
+/*-------END INVENTED HERE TAB -------*/
+
+/*------- CATEGORY NAV -------*/
+
+ul#category-nav {
+    position: absolute;
+    margin: 0 auto;
+    top: 177px;
+        
+    width: 1280px;
+    height: 47px; 
+    background-color: #424143;
+}
+
+ul#category-nav li{
+    display: inline-block;
+    position: relative;
+    top: 48%;
+    transform: translateY(-50%);
+    
+    height: 47px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    
+    line-height: 48px;
+    text-align: center;
+    color: white;   
+}
+
+ul#category-nav li a {
+    display: block;
+    height: 47px;
+    
+    padding: 0 30px;
+    
+    text-decoration: none;
+    
+    color: #d1d2d3;
+}
+
+a#category-1 {
+    margin-left: 19px;
+}
+
+a#category-8 {
+    margin-right: 20px;
+}
+
+ul#category-nav li a:hover {
+    color: #424143;
+}
+
+ul#category-nav li:hover {
+    background-color: white;
+}
+
+
+/*-------END CATEGORY NAV -------*/
 
 
 
