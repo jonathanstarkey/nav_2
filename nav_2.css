@@ -416,6 +416,7 @@ a#gift-bot {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
+    line-height: 48px
 }
 
 a#gift-bot:hover {
