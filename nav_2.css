@@ -100,11 +100,9 @@ div#top-row {
 /*-------TOP ROW INFO -------*/
 
 #top-row-info {
-    position: relative;
-    top: 45%;
-    transform: translateY(-60%);
+    padding-top: 14px;
     
-    left: 556px;
+    padding-left: 556px;
     
     color: #6d6e71;
 }
@@ -247,7 +245,18 @@ ul#main-nav {
     position: absolute;
     background-position: center center;
     background-repeat: no-repeat;
-    text-indent: -9999px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    
+    line-height: 45px;
+    
+    color: #ffffff;
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 #main-nav a#spacer-right {
@@ -264,7 +273,7 @@ ul#main-nav {
     background: url(img/1.png) no-repeat center;
     width: 147px;
     height: 90px;
-    
+        
     left: 315px;
     
     top: -1px;
@@ -275,6 +284,8 @@ ul#main-nav {
     background: url(img/2.png) no-repeat center;
     width: 165px;
     height: 95px;
+    
+    text-indent: -9999px;
     
     left: 452px;
     
@@ -331,7 +342,21 @@ ul#main-nav {
     top: -10px;
 }
 
-#main-nav a#main-2:hover, 
+#main-nav a#main-2:hover {
+    top: -18px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    
+    color: #ffffff;
+    line-height: 103px;
+    
+    text-indent: 0px;
+    text-align: center;
+    text-decoration: none;   
+}
+
 #main-nav a#main-3:hover,
 #main-nav a#main-6:hover {
     top: -14px;
@@ -475,7 +500,7 @@ a#invented-here:hover {
 a#invented-here span {
     position: absolute;
     background: url(img/pin_1.png) no-repeat center;
-    width: 73px;
+    width: 52px;
     height: 73px;
     
     margin-left: -5px;
@@ -485,7 +510,7 @@ a#invented-here span {
 a#invented-here:hover span{
     position: absolute;
     background: url(img/pin_2.png) no-repeat center;
-    width: 73px;
+    width: 52px;
     height: 73px;
     
     margin-left: -5px;
